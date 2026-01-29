@@ -35,33 +35,28 @@ Among these, **MobileNetV2** demonstrated the best trade-off between accuracy, i
 
 ## 📁 Project Structure
 
-<img width="1347" height="273" alt="image" src="https://github.com/user-attachments/assets/c63a33dd-6840-4154-be5c-e61618424e2c" />
+- **skin_dataset/**  
+  Image dataset used for training and validation (acne, oily, dry, etc.)
 
-Cosmetic-Suggestion-AI/
-│
-├── skin_dataset/
-│ └── Image dataset for training (acne, oily, dry, etc.)
-│
-├── skin_classify_MobileNetV2.ipynb
-│ └── Final model training notebook (MobileNetV2)
-│
-├── predict&recommend_csv.ipynb
-│ └── Prediction and cosmetic recommendation logic
-│
-├── training_model_ipynb/
-│ └── Other model experiments
-│ ├── MobileNetV3Small
-│ ├── EfficientNetV2B0
-│ ├── EfficientNetB0
-│ ├── ResNet50
-│ └── VGG16
-│
-├── products.csv
-│ └── Cosmetic product database
-│
-└── README.md
-└── Project documentation
+- **skin_classify_MobileNetV2.ipynb**  
+  Final model training notebook using MobileNetV2
 
+- **predict&recommend_csv.ipynb**  
+  Notebook for skin prediction and cosmetic recommendation logic
+
+- **training_model_ipynb/**  
+  Model experimentation notebooks for:
+  - MobileNetV3Small  
+  - EfficientNetV2B0  
+  - EfficientNetB0  
+  - ResNet50  
+  - VGG16  
+
+- **products.csv**  
+  Cosmetic product database used for recommendations
+
+- **README.md**  
+  Project documentation
 
 ---
 
